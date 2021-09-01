@@ -9,7 +9,7 @@ const LoginButton = () => {
 
 	return (
 		!isAuthenticated && (
-			<Button variant='secondary'  style= {{color:"#000"},{fontSize:"120%"},{width:"30%"}} className="p-2" onClick={()  => loginWithRedirect()}>
+			<Button variant='secondary'  style= {{color:"#000"},{fontSize:"120%"},{width:"20%"}} className="p-2" onClick={()  => loginWithRedirect()}>
 				SIGN-IN
 			</Button>
 
